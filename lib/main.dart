@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pupan_se/posts.dart';
+import 'package:pupan_se/search_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       debugShowCheckedModeBanner: false,
-      home: PostsPage(),
+      home: SearchList(),
     );
   }
 }
